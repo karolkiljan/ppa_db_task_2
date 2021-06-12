@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="createData" layoutY="357.0" mnemonicParsing="false" onAction="#createData" prefHeight="34.0" prefWidth="165.0" text="Zaladuj wstepne dane" />
+            <Button fx:id="showDataButton" layoutY="323.0" mnemonicParsing="false" onAction="#showData" prefHeight="34.0" prefWidth="165.0" text="Pokaz dane z bazy" />
+            <Button fx:id="acceptSecondVoting" layoutX="236.0" layoutY="357.0" mnemonicParsing="false" onAction="#acceptData" prefHeight="34.0" prefWidth="129.0" text="Zatwierdz wyniki" />
+             <Button fx:id="firstVoting" layoutX="454.0" layoutY="323.0" mnemonicParsing="false" onAction="#firstVoting" prefHeight="34.0" prefWidth="146.0" text="Przeprowadz I ture" />
+            <Button fx:id="secondVoting" layoutX="454.0" layoutY="357.0" mnemonicParsing="false" onAction="#secondVoting" prefHeight="34.0" prefWidth="146.0" text="Zatwierdz i przeprowadz II ture" />
+            <TableView id="table" fx:id="tableView" prefHeight="263.0" prefWidth="600.0">
+              <columns>
+                <TableColumn fx:id="tableColumnName" prefWidth="100.0" text="IMIE" />
+                <TableColumn fx:id="tableColumnSurname" prefWidth="119.0" text="NAZWISKO" />
+                  <TableColumn fx:id="tableColumnVotingOne" prefWidth="124.0" text="WYNIK_1_TURA" />
+                  <TableColumn fx:id="tableColumnVotingTwo" prefWidth="139.0" text="WYNIK_2_TURA" />
+                  <TableColumn fx:id="tableColumnIsWinner" prefWidth="117.0" text="CZY_WYGRAL" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
