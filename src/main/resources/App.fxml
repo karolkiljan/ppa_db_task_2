@@ -7,11 +7,11 @@
    <children>
       <Pane prefHeight="400.0" prefWidth="600.0">
          <children>
-            <Button fx:id="createData" layoutY="357.0" mnemonicParsing="false" onAction="#createData" prefHeight="34.0" prefWidth="165.0" text="Zaladuj wstepne dane" />
-            <Button fx:id="showDataButton" layoutY="323.0" mnemonicParsing="false" onAction="#showData" prefHeight="34.0" prefWidth="165.0" text="Pokaz dane z bazy" />
+            <Button fx:id="createData" layoutY="357.0" mnemonicParsing="false" onAction="#createData" prefHeight="34.0" prefWidth="229.0" text="Zaladuj wstepne dane" />
+            <Button fx:id="showDataButton" layoutY="323.0" mnemonicParsing="false" onAction="#showData" prefHeight="34.0" prefWidth="229.0" text="Pokaz dane z bazy" />
             <Button fx:id="acceptSecondVoting" layoutX="236.0" layoutY="357.0" mnemonicParsing="false" onAction="#acceptData" prefHeight="34.0" prefWidth="129.0" text="Zatwierdz wyniki" />
-             <Button fx:id="firstVoting" layoutX="454.0" layoutY="323.0" mnemonicParsing="false" onAction="#firstVoting" prefHeight="34.0" prefWidth="146.0" text="Przeprowadz I ture" />
-            <Button fx:id="secondVoting" layoutX="454.0" layoutY="357.0" mnemonicParsing="false" onAction="#secondVoting" prefHeight="34.0" prefWidth="146.0" text="Zatwierdz i przeprowadz II ture" />
+             <Button fx:id="firstVoting" layoutX="371.0" layoutY="323.0" mnemonicParsing="false" onAction="#firstVoting" prefHeight="34.0" prefWidth="229.0" text="Przeprowadz I ture" />
+            <Button fx:id="secondVoting" layoutX="371.0" layoutY="357.0" mnemonicParsing="false" onAction="#secondVoting" prefHeight="34.0" prefWidth="229.0" text="Zatwierdz i przeprowadz II ture" />
             <TableView id="table" fx:id="tableView" prefHeight="263.0" prefWidth="600.0">
               <columns>
                 <TableColumn fx:id="tableColumnName" prefWidth="100.0" text="IMIE" />
